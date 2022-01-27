@@ -1,0 +1,12 @@
+.lever{
+    width: 30px;
+    height: 14px;
+    background-color: rgb(185, 185, 185);
+    border: black solid 8px;
+    border-radius: 15px;
+    position: relative;
+    margin-left : auto;
+    margin-right : auto;
+    bottom : 370px;
+    left : 173px;
+}

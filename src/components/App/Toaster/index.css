@@ -1,0 +1,36 @@
+.toasterbody{
+   background-color: rgb(172, 172, 172);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25em;
+    user-select: none;
+}
+
+#main{
+    width:  300px;
+   height : 200px;
+   border-top-left-radius: 30%;
+   border-top-right-radius: 30%;
+   border: black solid 9px;
+
+}
+
+#main_shade{
+    width: 280px;
+    height: 215px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    position: absolute;
+    background-color: rgb(206, 206, 206);
+    top : 10px
+}
+
+#bottom{
+    position : relative;
+    bottom : 205px;
+    width: 340px;
+    height: 10px;
+    border: black solid 9px;
+    border-radius: 30px;
+    left : -24px
+}
