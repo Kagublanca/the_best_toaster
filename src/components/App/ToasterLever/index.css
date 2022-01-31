@@ -10,3 +10,20 @@
     bottom : 370px;
     left : 173px;
 }
+
+.lever:active{
+    animation: toast 1s forwards;
+}
+
+@keyframes toast {
+  0%{
+}
+100% {
+    transform: translateY(300%);
+}
+
+}
+
+.lever:active {
+    background-color: rgba(126, 126, 126, 0.74);
+}

@@ -1,5 +1,6 @@
 import "./index.css";
 import ToasterLever from "../ToasterLever";
+import ToasterFace from "../ToasterFace";
 
 function Toaster() {
   return (
@@ -9,6 +10,7 @@ function Toaster() {
         <div className="toasterbody" id="bottom"></div>
         <ToasterLever />
       </div>
+      <ToasterFace />
     </div>
   );
 }
