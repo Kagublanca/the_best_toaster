@@ -17,20 +17,21 @@
 
 #main_shade{
     width: 280px;
-    height: 215px;
+    height: 200px;
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
-    position: absolute;
+    position:relative;
     background-color: rgb(206, 206, 206);
-    top : 73px
+    bottom: 400px;
+    left: -9px
 }
 
 #bottom{
     position : relative;
-    bottom : 205px;
+    bottom : 800px;
     width: 340px;
     height: 10px;
     border: black solid 9px;
     border-radius: 99px;
-    left : -24px
+    left : -28px
 }

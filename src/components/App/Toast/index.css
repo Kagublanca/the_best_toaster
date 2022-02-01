@@ -1,0 +1,35 @@
+.base{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 800px;
+    bottom: 600px;
+}
+
+.body{
+    position: inherit;
+    background-color: #ffd18d;
+    border: black solid 6px;
+    width: 200px;
+    height: 200px
+}
+
+.circle_1{
+    background-color: #ffd18d;
+    height: 150px;
+    width: 300px;
+    border-radius: 100px;
+    border: black solid 6px;
+    position: inherit;
+    bottom: 100px;
+    left: -45px;
+}
+
+.fill{
+    position: inherit;
+    width: 100px;
+    height: 100px;
+    background-color: #ffd18d;
+    left: 6px;
+    width: 200px;
+}
