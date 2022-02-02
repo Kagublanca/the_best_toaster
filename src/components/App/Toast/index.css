@@ -2,8 +2,9 @@
     position: absolute;
     height: 200px;
     width: 200px;
-    left: 800px;
-    bottom: 600px;
+    left: 845px;
+    bottom: 500px;
+    z-index: 50;
 }
 
 .body{
@@ -20,8 +21,8 @@
     width: 300px;
     border-radius: 100px;
     border: black solid 6px;
-    position: inherit;
     bottom: 100px;
+    position: inherit;
     left: -45px;
 }
 
@@ -33,3 +34,6 @@
     left: 6px;
     width: 200px;
 }
+
+
+

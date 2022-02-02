@@ -1,13 +1,13 @@
 import "./index.css";
 import ToasterLever from "../ToasterLever";
 
-function Toaster() {
+function Toaster({ isDown, setIsDown }) {
   return (
     <div>
       <div className="toasterbody" id="main">
         <div className="toasterbody" id="main_shade"></div>
         <div className="toasterbody" id="bottom"></div>
-        <ToasterLever />
+        <ToasterLever isDown={isDown} setIsDown={setIsDown} />
       </div>
     </div>
   );

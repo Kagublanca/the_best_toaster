@@ -1,14 +1,12 @@
 import "./index.css";
-import { useEffect, useState } from "react";
 
-function ToasterLever() {
-  const [isDown, setIsDown] = useState(false);
-
+function ToasterLever({ isDown, setIsDown }) {
   function handleClick() {
+    console.log(isDown);
     setIsDown(true);
   }
 
-  return <div className="lever" onClick={handleClick}></div>;
+  return <div className="lever" onMouseDown={handleClick}></div>;
 }
 
 export default ToasterLever;

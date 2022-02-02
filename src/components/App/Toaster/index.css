@@ -4,6 +4,8 @@
     margin-right: auto;
     margin-top: 25em;
     user-select: none;
+    z-index: 1;
+
 }
 
 #main{
@@ -12,7 +14,8 @@
    border-top-left-radius: 30%;
    border-top-right-radius: 30%;
    border: black solid 9px;
-
+   z-index: 500;
+   position: relative;
 }
 
 #main_shade{
@@ -23,7 +26,9 @@
     position:relative;
     background-color: rgb(206, 206, 206);
     bottom: 400px;
-    left: -9px
+    left: -9px;
+    z-index: 150;
+
 }
 
 #bottom{
@@ -33,5 +38,7 @@
     height: 10px;
     border: black solid 9px;
     border-radius: 99px;
-    left : -28px
+    left : -28px;
+    z-index: 150;
+
 }
