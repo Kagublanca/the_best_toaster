@@ -5,10 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("../Toast_Background.png");
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.background{
+  background-image: url("../Toast_Background.png");
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  bottom: 0px;
+  opacity: .4;
+  z-index: 1;
 }

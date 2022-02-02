@@ -5,6 +5,7 @@ import App from "../src/components/App/App";
 
 ReactDOM.render(
   <React.StrictMode>
+    <div className="background"></div>
     <App />
   </React.StrictMode>,
   document.getElementById("root")

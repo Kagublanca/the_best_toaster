@@ -1,7 +1,13 @@
 h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-shadow: 7px 3px rgba(75, 68, 7, 0.753);
+    text-shadow: 7px 3px rgb(75, 68, 7);
     font-size: 70px;
-    background-color: rgba(250, 235, 215, 0.719);
+    background-color: rgb(250, 235, 215);
     color: rgb(255, 211, 67);
+    user-select: none;
+    border: solid rgb(0, 0, 0) ;
+    z-index: 60;
+    position: absolute;
+    left: 33vw;
+    bottom: 45vw;
 }
